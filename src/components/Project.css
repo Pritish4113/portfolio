@@ -57,6 +57,14 @@
   ) !important;
 }
 
+.lineafter{
+  color: #84d7ff;
+}
+
+.hoverlogo:hover{
+  color: black;
+}
+
 .projectimg2 {
   background: url("../assets/launch.com.png") no-repeat center center/cover;
   background-size: contain;
@@ -68,6 +76,14 @@
 }
 .projectimg4 {
   background: url("../assets/foodie.png") no-repeat center center/cover;
+  background-size: contain;
+}
+.projectimg5 {
+  background: url("../assets/stopwatch.png") no-repeat center center/cover;
+  background-size: contain;
+}
+.projectimg6 {
+  background: url("../assets/musicmart.png") no-repeat center center/cover;
   background-size: contain;
 }
 

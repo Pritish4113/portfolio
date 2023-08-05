@@ -12,10 +12,10 @@ function Navbar({ changeState }) {
   }
   return (
     <>
-      <div className="fixed w-screen h-[80px] flex justify-between items-center px-4">
+      <div className="fixed w-screen h-[80px] flex justify-between items-center px-4 z-10">
         <p className="namenav navstyle p-4 rounded-2xl mt-4">PRITISH SINGHAL</p>
         {/* menu */}
-        <div className="hidden md:flex">
+        <div className="hidden md:flex ">
           <ul className="flex navstyle p-5 rounded-2xl mt-4">
             <li className="px-4 navlink">
               <Link to="/">Home</Link>

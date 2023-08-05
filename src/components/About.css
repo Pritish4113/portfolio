@@ -26,6 +26,11 @@
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
+
+.poppins{
+  font-family: "Poppins", sans-serif;
+}
+
 .textnormal {
   font-family: "Open Sans", sans-serif;
 }
@@ -77,7 +82,7 @@
   height: 100%;
   width: 95%;
   background: rgb(134, 231, 255);
-  animation: progress 0.4s ease-in-out forwards;
+  animation: progress 0.9s ease-in-out forwards;
   opacity: 0;
 }
 
@@ -133,3 +138,8 @@
     opacity: 1;
   }
 }
+
+.lineafter{
+  color: #84d7ff;
+}
+

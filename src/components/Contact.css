@@ -1,64 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Libre+Baskerville:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 .navstyle {
-    background-color: rgba(0, 0, 0, 0.45);
-    color: white;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: white;
 }
 
-.darkdarkdark{
-    background-color: rgba(0, 0, 0, 0.854);
-    color: white;
+.darkdarkdark {
+  background-color: rgba(0, 0, 0, 0.854);
+  color: white;
 }
 
-.headingstyle{
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
+.headingstyle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
-.headingstyle2{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-}
-
-.darkdark{
-    background-color: rgba(0, 0, 0, 0.555);
-    color: white;
+.headingstyle2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
-.contactstyle{
-    background: url('../assets/back2.jpg') no-repeat center center/cover;
+.darkdark {
+  background-color: rgba(0, 0, 0, 0.555);
+  color: white;
 }
 
-.type{
-    font-family: "Roboto Mono", Sans-serif;
-    font-weight: 400;
+.contactstyle {
+  background: url("../assets/back2.jpg") no-repeat center center/cover;
 }
 
-.darktype{
-    font-family: "Roboto Mono", Sans-serif;
-    font-weight: 700;
+.type {
+  font-family: "Roboto Mono", Sans-serif;
+  font-weight: 400;
 }
 
-.hovercolor{
-    cursor: pointer;
+.darktype {
+  font-family: "Roboto Mono", Sans-serif;
+  font-weight: 700;
 }
 
-.hovercolor:hover{
-    color : rgb(15,220,255);
+.hovercolor {
+  cursor: pointer;
 }
 
-.textcolor{
-    background-color: rgb(15, 239, 255);
-    color: black;
+.hovercolor:hover {
+  color: rgb(134, 231, 255);
 }
 
-.iconbackcolor{
-    background-color: rgb(21 49 61);
+.textcolor {
+  background-color: rgb(15, 239, 255);
+  color: black;
+}
+
+.iconbackcolor {
+  background-color: rgb(21 49 61);
+}
+
+.lineafter{
+    color: #84d7ff;
 }

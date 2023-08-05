@@ -4,15 +4,16 @@ import { BsGithub } from "react-icons/bs";
 import { MdLocationOn } from "react-icons/md";
 import { FiShare2 } from "react-icons/fi";
 import { FiMail } from "react-icons/fi";
+import { BiLogoGmail } from "react-icons/bi";
 import "./Contact.css";
 
 function Contact({navState}) {
   return (
     <>
       <div className={navState ? "contactstyle h-max w-screen flex flex-col justify-center items-center" : "hidden"}>
-        <div className="w-5/6 mt-[120px] flex flex-col type darkdark rounded-xl p-5">
+        <div className="w-5/6 mt-[120px] flex flex-col type darkdark rounded-xl px-5">
           <div className="ml-8 pt-6">
-            <p>Contact</p>
+            <p className="lineafter relative mb-6">Contact</p>
             <h1 className="text-3xl mt-4 mb-6 headingstyle">Contact Me</h1>
           </div>
           <div className="grid gris-cols-1 sm:grid-cols-2">
@@ -33,9 +34,9 @@ function Contact({navState}) {
                 <h1 className="headingstyle text-xl">Social Profiles</h1>
               </div>
               <p className="flex my-4">
-                <AiFillLinkedin className="mx-2 text-2xl hovercolor" />
-                <BsGithub className="mx-2 text-2xl hovercolor" />
-                <AiFillInstagram className="mx-2 text-2xl hovercolor" />
+                <a href="https://www.linkedin.com/in/pritish-singhal-451548228"><AiFillLinkedin className="mx-2 text-2xl hovercolor" /></a>
+                <a href="https://github.com/Pritish4113"><BsGithub className="mx-2 text-2xl hovercolor" /></a>
+                <a href="mailto:pritish4113@gmail.com"><BiLogoGmail className="mx-2 text-2xl hovercolor" /></a>
               </p>
             </div>
             <div className="rounded-2xl p-6 m-2 darkdark">

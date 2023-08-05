@@ -1,14 +1,19 @@
-import Me from "../assets/brad.jpg";
 import { TbArrowBigRightFilled } from "react-icons/tb";
 // import Countup from "react-countup";
 import "./About.css";
 
-function About({navState}) {
+function About({ navState }) {
   return (
     <>
-      <div className={navState ? "bg-black text-white h-max w-screen flex flex-col justify-center items-center aboutstyle type" : "hidden"}>
+      <div
+        className={
+          navState
+            ? "bg-black text-white h-max w-screen flex flex-col justify-center items-center aboutstyle type"
+            : "hidden"
+        }
+      >
         <div className="w-screen sm:w-5/6 mt-[120px] darkdark rounded-xl px-8 py-2 mb-10">
-          <p className="pt-3">About</p>
+          <p className="pt-3 lineafter mb-4">About</p>
           <h1 className="headingstyle text-4xl pt-2 mb-8">All About Me</h1>
 
           {/* text and photo */}
@@ -20,15 +25,15 @@ function About({navState}) {
             /> */}
             <div className="textcontent darkdark rounded-xl px-5 pb-2 w-screen sm:w-full">
               <div className="mt-6">
-                <p className="text-2xl italics mb-4 fontcolor">
+                <p className="text-xl sm:text-2xl italics mb-8 fontcolor">
                   Hello! I am Pritish Singhal
                 </p>
-                <p className="mb-5 textnormal fontsize">
+                <p className="text-md sm:text-[1.1rem] mb-5 textnormal">
                   I am an engineering student in Computer Science Engineering
                   from Maharaja Agrasen Institute of Technology ,GGSIPU
                 </p>
               </div>
-              <div className="grid grid-cols-1 lg:grid-cols-2 mt-4">
+              <div className="grid grid-cols-1 lg:grid-cols-2 mt-4 mb-10 text-sm sm:text-md lg:text-lg">
                 <div className="flex">
                   <TbArrowBigRightFilled className="mt-1.5 mr-2 fontcolor" />
                   <span className="headingstyle2">Birthday</span> : 4 Nov 2003
@@ -43,28 +48,27 @@ function About({navState}) {
                 </div>
                 <div className="flex">
                   <TbArrowBigRightFilled className="mt-1.5 mr-2 fontcolor" />
-                  <div className="flex flex-col sm:flex-row">
+                  <div className="flex flex-row">
                     <span className="headingstyle2">Email : </span>
                     <span className="pl-3">pritish4113@gmail.com</span>
                   </div>
                 </div>
               </div>
-              <div className="mt-6 textnormal fontsize">
-                I’m Pritish, I’m a software developer, and I specialize in
-                efficient designs that just work across all platforms and
-                browsers. I care deeply about building interfaces that are
-                usable and pleasant for the most number of people possible.
-                Also, I do care about the views of the person who intended to
-                use it. I also try my best to deliver the best quality I can
-                give to anyone within given time. Also I create websites using
-                ReactJS and major front-end tools. Apart from this I can even
-                work on any other tech stack as I am a quick learner and can
-                adapt to any new environment. I use firebase for all the
-                services as it eases the work of handling the backend and also
-                provides a lot of services for free. Apart from this I even work
-                with Node for backend development. I also have a keen interest
-                in database management and operations on it. If you ever feel a
-                collaboration for new projects then I'll be very happy to do so.
+              <div className="mt-6 textnormal text-md sm:text-[1.1rem]">
+                <p className="mb-2">Hello World !</p>
+                <p>
+                  A passionate and versatile web developer with a knack for
+                  creativity and an eye for detail. My journey in web
+                  development has allowed me to blend innovation and technical
+                  expertise seamlessly, resulting in captivating and
+                  user-friendly websites. Whether it's crafting elegant
+                  front-end designs or implementing robust back-end
+                  functionalities, I take pride in delivering exceptional
+                  digital experiences. With a dedication to staying on top of
+                  the latest industry trends, I am constantly seeking new ways
+                  to push boundaries and solve complex challenges. Let's
+                  collaborate and bring your ideas to life!
+                </p>
               </div>
             </div>
           </div>

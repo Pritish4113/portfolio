@@ -8,12 +8,14 @@ import Contact from "./components/Contact";
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
+
 function App() {
 
-  const [navState, setnavState] = useState(false);
+  const [navState, setnavState] = useState(true);
 
   function changeState(nav) {
     setnavState(nav);
+    console.log(navState);
   }
 
   return (

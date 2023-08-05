@@ -1,10 +1,9 @@
 import "./Home.css";
 import { AiFillLinkedin } from "react-icons/ai";
-import { AiFillInstagram } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 import { BiLogoGmail } from "react-icons/bi";
 
-function Home({navState}) {
+function Home() {
   return (
     <>
       <div
@@ -19,9 +18,9 @@ function Home({navState}) {
                 I am a <span className="border-b-4 border-b-[#0fc7ff] ml-2">FrontEnd Web Developer</span>
               </h2>
               <div className="flex justify-center items-center pt-8">
-              <div className="text-3xl p-4 navstyle mx-6 rounded-xl cursor-pointer hovertext"><AiFillLinkedin/></div>
-              <div className="text-3xl p-4 navstyle mx-6 rounded-xl cursor-pointer hovertext"><BsGithub/></div>
-              <div className="text-3xl p-4 navstyle mx-6 rounded-xl cursor-pointer hovertext"><BiLogoGmail/></div>
+              <div className="text-3xl p-4 navstyle mx-6 rounded-xl cursor-pointer hovertext"><a href="https://www.linkedin.com/in/pritish-singhal-451548228"><AiFillLinkedin/></a></div>
+              <div className="text-3xl p-4 navstyle mx-6 rounded-xl cursor-pointer hovertext"><a href="https://github.com/Pritish4113"><BsGithub/></a></div>
+              <div className="text-3xl p-4 navstyle mx-6 rounded-xl cursor-pointer hovertext"><a href="mailto:pritish4113@gmail.com"><BiLogoGmail/></a></div>
               </div>
             </div>
           </div>

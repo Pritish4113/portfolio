@@ -18,6 +18,11 @@
     color: white;
 }
 
+.lineafter{
+    color: #84d7ff;
+}
+
+
 .headingstyle{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -25,6 +30,14 @@
 .headingstyle2{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
+}
+
+.timecolor{
+    color: #a7e2ff;
+}
+
+.simpletext{
+    font-family: "Poppins", sans-serif;
 }
 
 .darkdark{
