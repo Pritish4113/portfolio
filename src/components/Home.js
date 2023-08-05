@@ -7,7 +7,6 @@ function Home() {
   return (
     <>
       <div
-        name="home"
         className=" text-white flex flex-col justify-center w-full h-screen homestyle"
       >
             <div className="flex flex-col justify-center items-center">

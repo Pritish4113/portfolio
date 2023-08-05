@@ -23,7 +23,7 @@ function App() {
       <>
         <Navbar changeState={changeState}></Navbar>
         <Routes>
-          <Route exact path="/" element={<Home navState = {navState}/>}></Route>
+          <Route exact path="/" element={<Home/>}></Route>
           <Route exact path="/About" element={<About navState = {navState}/>}></Route>
           <Route exact path="/Resume" element={<Resume navState = {navState}/>}></Route>
           <Route exact path="/Project" element={<Project navState = {navState}/>}></Route>
