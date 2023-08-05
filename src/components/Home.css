@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.navstyle{
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+}
+
+.darkdark{
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+}
+
+.headingstyle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.homestyle{
+    background: url('../assets/back2.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+
+}
+
+.name{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.hometype{
+    font-family: 'Handjet', cursive;
+}
+
+.hovertext:hover{
+    color: #0fc7ff;
+}

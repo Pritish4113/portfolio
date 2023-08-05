@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.projectstyle {
+  background: url("../assets/back2.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+
+}
+
+.headingstyle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.projectheading {
+  /* font-family: 'Bebas Neue', sans-serif; */
+  font-family: "Roboto Mono", Sans-serif;
+}
+
+.navstyle {
+  background-color: rgba(0, 0, 0, 0.45);
+  color: white;
+}
+
+.darkdarkdark {
+  background-color: rgba(0, 0, 0, 0.854);
+  color: white;
+}
+
+.darkdark {
+  background-color: rgba(0, 0, 0, 0.555);
+  color: white;
+}
+
+.normtext {
+  font-family: "Roboto Mono", Sans-serif;
+  font-weight: 400;
+}
+
+.projectimg {
+  background: url("../assets/weather.png") no-repeat center center/cover;
+  background-size: contain;
+}
+
+.hoverproject:hover {
+  background: linear-gradient(
+    to right,
+    rgba(11, 100, 138, 0.735),
+    rgba(11, 100, 138, 0.735)
+  ) !important;
+}
+
+.projectimg2 {
+  background: url("../assets/launch.com.png") no-repeat center center/cover;
+  background-size: contain;
+}
+
+.projectimg3 {
+  background: url("../assets/todo.png") no-repeat center center/cover;
+  background-size: contain;
+}
+.projectimg4 {
+  background: url("../assets/foodie.png") no-repeat center center/cover;
+  background-size: contain;
+}
+
+

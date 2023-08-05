@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Resume from "./components/Resume";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
+import { Routes, Route } from "react-router-dom";
+import { useState } from "react";
 
 function App() {
+
+  const [navState, setnavState] = useState(false);
+
+  function changeState(nav) {
+    setnavState(nav);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <>
+        <Navbar changeState={changeState}></Navbar>
+        <Routes>
+          <Route exact path="/" element={<Home navState = {navState}/>}></Route>
+          <Route exact path="/About" element={<About navState = {navState}/>}></Route>
+          <Route exact path="/Resume" element={<Resume navState = {navState}/>}></Route>
+          <Route exact path="/Project" element={<Project navState = {navState}/>}></Route>
+          <Route exact path="/Contact" element={<Contact navState = {navState}/>}></Route>
+        </Routes>
+      </>
     </div>
   );
 }

@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.navstyle {
+  background-color: rgba(0, 0, 0, 0.45);
+  color: white;
+}
+
+a {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: "Roboto Mono", Sans-serif;
+  font-weight: 400;
+}
+
+.navlink:hover {
+  color: rgb(134, 231, 255);
+}
+
+.namenav {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+
+.hovereffect:hover {
+  color: rgb(134, 231, 255);
+}
+
+.zindexnav{
+  z-index: 1000;
+}
