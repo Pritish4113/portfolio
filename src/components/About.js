@@ -44,7 +44,7 @@ function About({ navState }) {
                 </div>
                 <div className="flex">
                   <TbArrowBigRightFilled className="mt-1.5 mr-2 fontcolor" />
-                  <span className="headingstyle2">Degree</span> : BTech CSc
+                  <span className="headingstyle2">Degree</span> : BTech CSE
                 </div>
                 <div className="flex">
                   <TbArrowBigRightFilled className="mt-1.5 mr-2 fontcolor" />

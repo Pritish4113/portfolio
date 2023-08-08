@@ -19,7 +19,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App overflow-x-hidden">
       <>
         <Navbar changeState={changeState}></Navbar>
         <Routes>
